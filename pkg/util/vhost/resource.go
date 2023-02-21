@@ -30,22 +30,50 @@ const (
 	NotFound = `<!DOCTYPE html>
 <html>
 <head>
-<title>Not Found</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
+  <title>青少年CTF-GameBox提醒</title>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="10">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
-<body>
-<h1>The page you requested was not found.</h1>
-<p>Sorry, the page you are looking for is currently unavailable.<br/>
-Please try again later.</p>
-<p>The server is powered by <a href="https://github.com/fatedier/frp">frp</a>.</p>
-<p><em>Faithfully yours, frp.</em></p>
-</body>
+<body  style="background-image:url(https://tools.qsnctf.com/tools/api/qsn_wallpaper.php); background-size: cover;">
+<div class="container-fluid">
+  <div class="jumbotron" style="margin-top: 150px; background-color: rgba(255, 255, 255, 0.5);">
+  <h2 >错误信息</h2>
+  <div class="alert alert-info alert-dismissible" style="margin-top: 20px;">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>错误：</strong> 你访问的Game-Box未找到，可能原因有下：
+  </div>
+    <div class="alert alert-primary">
+       Game-Box<strong>初始化中</strong>，请稍等片刻即可访问。
+    </div>
+    <div class="alert alert-warning">
+       Game-Box<strong>已到期</strong>，请重新启动环境即可。
+    </div>
+    <div class="alert alert-danger">
+       Game-Box<strong>已销毁</strong>，请重新开启题目环境。
+    </div>
+    <h2>操作</h2>
+  <a href="https://www.qsnctf.com/" class="btn btn-info" role="button">青少年CTF训练平台</a>
+  <a href="https://docs.qsnctf.com/" class="btn btn-info" role="button">青少年CTF文库</a>
+  <a href="https://bbs.qsnctf.com/" class="btn btn-info" role="button">青少年CTF论坛</a>
+  <a href="https://tools.qsnctf.com/" class="btn btn-info" role="button">青少年CTF在线工具</a>
+  <a href="https://jq.qq.com/?_wv=1027&k=yRnKW3uX" class="btn btn-info" role="button">QQ群</a>
+  <a href="https://space.bilibili.com/2066710972" class="btn btn-info" role="button">Bilibili</a>
+</div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?10309f8528ef7f3bdd779aa12ad6dc7e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </html>
 `
 )
