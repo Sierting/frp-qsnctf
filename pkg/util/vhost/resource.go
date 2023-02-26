@@ -32,7 +32,7 @@ const (
 <head>
   <title>青少年CTF-GameBox提醒</title>
   <meta charset="utf-8">
-  <meta http-equiv="refresh" content="10">
+  <meta http-equiv="refresh" content="30">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
